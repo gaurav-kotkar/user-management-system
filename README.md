@@ -184,47 +184,6 @@ DELETE /users/:id   # Delete user
 ✅ **TypeScript** - Full type safety (Bonus!)  
 ✅ **Comprehensive Docs** - Complete README
 
-## 📝 Example: Adding Address Field
-
-```typescript
-// In src/config/formSchema.ts
-{
-  name: 'address',
-  label: 'Street Address',
-  type: 'textarea',
-  placeholder: 'Enter street address',
-  validation: {
-    required: false,
-    maxLength: 200,
-  },
-  gridColumn: '1 / 3', // Spans both columns
-}
-```
-
-Done! The address field now appears in your forms.
-
-## 🐛 Troubleshooting
-
-**Port 5173 already in use?**
-```bash
-# Kill the process or change port in vite.config.ts
-```
-
-**Tailwind styles not working?**
-```bash
-# Make sure you ran npm install
-npm install
-npm run dev
-```
-
-**Build errors?**
-```bash
-# Clear cache and reinstall
-rm -rf node_modules package-lock.json
-npm install
-npm run build
-```
-
 ## 🎉 What Makes This Special
 
 1. **🎨 Beautiful Tailwind Design** - Modern, professional UI
