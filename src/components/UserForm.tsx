@@ -103,7 +103,7 @@ export const UserForm: React.FC<UserFormProps> = ({
         </div>
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="pt-6 pl-6 pr-6 pb-6 overflow-y-auto max-h-[calc(90vh-140px)] custom-scrollbar">
+        <form onSubmit={handleSubmit} className="p-6 overflow-y-auto max-h-[calc(90vh-140px)] custom-scrollbar">
           <div className="grid grid-cols-2 gap-6">
             {userFormSchema.fields.map((field) => (
               <FormInput
