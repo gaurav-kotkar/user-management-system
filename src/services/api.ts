@@ -46,7 +46,8 @@ const mockAPI = {
     await delay(500);
     const index = mockUsers.findIndex((user) => user.id === id);
     if (index === -1) throw new Error('User not found');
-    mockUsers[index] = { ...mockUsers[index], ...userData };
+    const cleanedData = Object.fromEntries(Object.entries(userData).filter(([, value]) => value !== undefined)) as Record<string, string>;
+    mockUsers[index] = { ...mockUsers[index], ...cleanedData } as User;
     return mockUsers[index];
   },
 

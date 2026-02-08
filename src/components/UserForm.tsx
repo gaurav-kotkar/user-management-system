@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { X, Save, UserPlus, Loader2 } from 'lucide-react';
 import { userFormSchema, getEmptyUser, User } from '../config/formSchema';
 import { FormInput } from './FormInput';

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { UserPlus, Users, RefreshCw, TrendingUp, Database, Activity } from 'lucide-react';
 import { UserForm } from './components/UserForm';
