@@ -78,6 +78,7 @@ export const userFormSchema: FormSchema = {
         required: true,
         pattern: /^[\d\s\-\+\(\)]+$/,
         minLength: 10,
+        maxLength: 10,
       },
       gridColumn: '2 / 3',
     },
