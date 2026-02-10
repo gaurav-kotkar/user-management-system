@@ -2,16 +2,6 @@
 
 🚀 **Live Demo:** https://user-management-system-dar3.vercel.app/
 
-## 🚀 Live Demo
-
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=vercel)](https://user-management-system-dar3.vercel.app/)
-
-## 🚀 Live Demo
-
-🔗 **View Live Application:**  
-https://user-management-system-dar3.vercel.app/
-
-
 A beautiful, modern React + TypeScript CRUD application with **Tailwind CSS** for managing users with an extensible, production-ready architecture.
 
 ![Tech Stack](https://img.shields.io/badge/React-18.2-61dafb?logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-5.2-3178c6?logo=typescript) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8?logo=tailwindcss) ![Vite](https://img.shields.io/badge/Vite-5.0-646cff?logo=vite)
